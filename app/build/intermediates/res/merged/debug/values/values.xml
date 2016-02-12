@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/apk/res-auto">
+    <color name="black">#000000</color>
+    <color name="black_alpha">#99000000</color>
+    <color name="blue">#ff1ca8f4</color>
+    <color name="dark_blue">#0288D1</color>
+    <color name="fab">#33b5e5</color>
+    <color name="grey">#cccccc</color>
+    <color name="grey_700">#646464</color>
+    <color name="light_blue">#ff64c2f4</color>
+    <color name="theme_primary">#127ef8</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="AppTheme"><attr format="reference" name="textAppearanceFinish"/></declare-styleable>
+    <declare-styleable name="FabView"><attr format="reference" name="fabDrawable"/><attr format="reference" name="fabColor"/><attr format="integer" name="fabMarginLeft"/><attr format="integer" name="fabMarginTop"/><attr format="integer" name="fabMarginRight"/><attr format="integer" name="fabMarginBottom"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">WeatherServiceApplication</string>
+    <string name="async">Async Download</string>
+    <string name="format_humidity">Humidity: <ns1:g id="humidity">%1.0f</ns1:g> %%</string>
+    <string name="format_pressure">Pressure: <ns1:g id="pressure">%1.0f</ns1:g> hPa</string>
+    <string name="format_temperature"><ns1:g id="temp">%1.0f</ns1:g>\u00B0</string>
+    <string name="format_wind_kmh">Wind: <ns1:g id="speed">%1$1.0f</ns1:g> km/h <ns1:g id="direction">%2$s</ns1:g></string>
+    <string name="format_wind_mph">Wind: <ns1:g id="speed">%1$1.0f</ns1:g> mph <ns1:g id="direction">%2$s</ns1:g></string>
+    <string name="query">City name or Country code</string>
+    <string name="sync">Sync Download</string>
+    <string name="title_activity_weather_parser">WeatherParser</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
